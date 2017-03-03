@@ -41,6 +41,15 @@ A self-sufficient runtime for containers
 
 ### Courses
 
+#### WatchMeCode
+
+- [Docker – Installation & Management](https://sub.watchmecode.net/series/docker/)
+- [Docker – Running Services in Containers](https://sub.watchmecode.net/series/docker-services/)
+- [Basic Dockerfile Builds](https://sub.watchmecode.net/series/basic-dockerfile-builds/)
+- [A Basic Node.js Docker App](https://sub.watchmecode.net/series/basic-node-js-docker-app/)
+- [Coding in Docker Containers](https://sub.watchmecode.net/series/coding-docker-containers/)
+- [Running Tools in a Docker Container](https://sub.watchmecode.net/series/running-tools-docker-container/)
+
 #### KataCoda 
 
 - https://www.katacoda.com/courses/dotnet-in-docker/deploying-aspnet-core-as-docker-container
