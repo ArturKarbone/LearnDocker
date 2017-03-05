@@ -1,4 +1,4 @@
-# An attempt to structurize my functional programming journey
+# An attempt to structurize my Docker journey
 
 ### Definition
 
