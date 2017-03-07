@@ -96,3 +96,7 @@ docker run --name test <image id>
 
 COPY script.sh /script.sh
 CMD ["/script.sh"] 
+
+
+
+docker inspect c1091c9730ce
