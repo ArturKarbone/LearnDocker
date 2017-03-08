@@ -1,34 +1,71 @@
-- A tool to build isolated environments and run applications out there. All the dependencies and prerequisites are described via code (configruation as code). 
-- When i send you a container it goes without saying that you will be able to build and launch it. When I’m sending some jar I don’t know what is installed out there (specific version of TomCat, etc.)
+- A tool to build isolated environments and run applications out there. All the dependencies and prerequisites are described via code/commands (configruation as code). Docker executes these commands and set up the environment.
+- When I send you a container it goes without saying that you will be able to build and launch it. When I’m sending some jar I don’t know what is installed out there (specific version of TomCat, etc.)
 - Configuration as code is encouraged. 
 - A container is a deployment unit
 - Lightweight virtualization
 - Keep your box far more clean
 - Multiple services/multiple versions/multiple runtimes
-Container - Image's instance
+- Analogy: Container is an instance, where an Image is a class
 
 
 ```
-docker run hello-world. 
+docker run hello-world
+docker ps -h
+docker ps -a -n 5 
+docker ps -l
 ```
 Read the output
 
+Image name goes as a last parameter
+
 ```
+docker run ubuntu
+docker logs <name>
 docker run -it ubuntu bash
 docker run -it ubuntu
 docker attach pedantic_keller
 ```
 
+(latest is like HEAD in git)
 ```
-docker run hello-world:latest (latest is like HEAD in git)
+docker run hello-world:latest 
 ```
 
 ```
 docker ps -a
 ```
 
+http://stackoverflow.com/questions/32811964/filter-docker-images-by-name
+
+```
+docker images
+docker images hello-world
+
+```
 ```
 docker rmi hello-world
+```
+
+
+Filtering 
+
+https://docs.docker.com/engine/reference/commandline/images/#filtering
+http://stackoverflow.com/questions/29406871/how-to-filter-docker-process-based-on-image
+
+```
+docker ps -a -f "name=suspicious_bohr"
+docker ps -a -f "ancestor=hello-world"
+```
+
+```
+docker rm $(docker ps -a -q)
+docker rmi $(docker images -a | grep "^<none>" | awk '{print $3}')
+docker rmi $(docker images -a -q)
+```
+
+```
+docker rm $(docker ps -a -q -f "ancestor=hello-world")
+docker rmi $(docker images -a -q hello-world) 
 ```
 
 ```
