@@ -93,27 +93,27 @@ Quiet output
 ```
 docker images --help
 docker images -aq
-docker nginx 
-docker run -p 80:80 nginx (name is going to be the last parameter)
-docker run -p 80:80 -d nginx (daemon mode)
+docker run -p 80:80 nginx # (name is going to be the last parameter)
+docker run -p 80:80 -d nginx #(daemon mode)
+docker run -p 80:80 -d --name mynginx nginx #(daemon mode with name)
 ```
-run command might be a mistake. don't have to remember all of this options
 
-image - class, container - instance
+**run** command each time might be a mistake in some cases. Leverage **start**, so you don't have to remember all of this options.
 
-every time run is used - another instance is created
+Analogy: image - class, container - instance.
+
+Every time run is used - another instance is created.
+
 ports <local host>:<container> ?
 
 ```
 docker ps
 docker kill modest_stallman
 
-docker pull nginx (like git)
+docker pull nginx #(like git)
 docker  run --name n1 -p 8080:80 nginx
 ```
 
-ports host:docker
--d daemon mode
 
 ```
 docker start/stop/restart
@@ -155,6 +155,9 @@ destroy or recreate container, but still have your data available
 
 ```
 docker start --help
+docker restart mynginx
+docker stop mynginx
+
 ```
 
 ```
@@ -162,7 +165,7 @@ docker start container1 container2
 ```
 
 ```
-docker exec container (not realy interactive)
+docker exec container #(not realy interactive)
 docker exec -it container
 
 docker exec -it mongo mongo 
@@ -189,4 +192,12 @@ CMD ["/script.sh"]
 
 ```
 docker inspect c1091c9730ce
+```
+
+
+Look at environment variables https://hub.docker.com/_/nginx/
+ENV NGINX_VERSION 1.11.10-1~jessie
+
+```
+docker inspect --format="{{.Config.Env}}" mynginx
 ```
