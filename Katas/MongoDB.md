@@ -1,7 +1,7 @@
 - https://hub.docker.com/_/mongo/
 - https://docs.docker.com/engine/examples/mongodb/#pushing-the-mongodb-image-to-docker-hub
 
-- Dockerize mongo/.net core application/rabbit mq application/ Leverage docker swarm/push to docker hub/deploy to digital ocean instance/setup ci
+- Dockerize mongo/.net core application/rabbit mq application/ Leverage docker swarm/push to docker hub/deploy to digital ocean instance/deploy to aws/azure/google/setup ci
 
 
 ```
