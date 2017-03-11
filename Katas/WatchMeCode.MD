@@ -201,3 +201,8 @@ ENV NGINX_VERSION 1.11.10-1~jessie
 ```
 docker inspect --format="{{.Config.Env}}" mynginx
 ```
+
+```
+docker stats
+docker search dotnet
+```
