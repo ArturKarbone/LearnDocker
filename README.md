@@ -36,7 +36,7 @@ A self-sufficient runtime for containers
 ### StackOverflow
 
 ### Videos
-
+- [.NET Docker Development with Visual Studio 2017](https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2017-Launch/T111?wt.mc_id=DX_880824)
 ### Whitepapers
 
 ### Use Cases
