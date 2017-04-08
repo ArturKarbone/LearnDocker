@@ -35,6 +35,12 @@ A self-sufficient runtime for containers
 
 ### StackOverflow
 
+### Meetups
+  - https://www.meetup.com/Docker-Online-Meetup/
+  
+### Youtube channels
+  - https://www.youtube.com/user/dockerrun
+  
 ### Videos
 - [.NET Docker Development with Visual Studio 2017](https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2017-Launch/T111?wt.mc_id=DX_880824)
 - [Getting started with .Net and Docker](https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2017-Launch/T122/player)
