@@ -27,10 +27,10 @@
 - docker ps -a --format "table {{.ID}}\t{{.Command}}"
 - .docker config.json change templates
 - docker run -d -p 8080:80 kitematic/hello-world-nginx 
-- docker compose build
-- docker compose up
-- docker compose down
-- docker compose logs
+- docker-compose build
+- docker-compose up
+- docker-compose down
+- docker-compose logs
 - docker ps -a
 - .docker dir useful commands
 - https://github.com/DanWahlin/Angular-RESTfulService
