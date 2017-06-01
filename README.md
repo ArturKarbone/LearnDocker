@@ -72,6 +72,9 @@ A self-sufficient runtime for containers
 
 #### Pluralsight
 
+- [Play by Play: Docker for Web Developers with John Papa and Dan Wahlin](https://www.pluralsight.com/courses/play-by-play-docker-web-developers-john-papa-dan-wahlin)
+- 
+
 ### Certificates
 
 ### Books
