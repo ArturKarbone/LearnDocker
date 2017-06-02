@@ -42,6 +42,7 @@ A self-sufficient runtime for containers
   - https://www.youtube.com/user/dockerrun
   
 ### Videos
+- [Auth0 Webinar](https://auth0.com/university/4/docker-101)
 - [.NET Docker Development with Visual Studio 2017](https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2017-Launch/T111?wt.mc_id=DX_880824)
 - [Getting started with .Net and Docker](https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2017-Launch/T122/player)
 - [Deploying Containers to Azure App Services and Azure Container Service](https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2017-Launch/T120/player)
